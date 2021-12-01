@@ -117,3 +117,5 @@ console.log(convertedAmount);
 
 // This message should also include the original amount and currency information
 // supplied by the user.
+console.log (`You submitted ${amount} in ${initialCurrency}`);
+console.log(`The converted amount is equal to ${convertedAmount} ${targetCurrency}`);
